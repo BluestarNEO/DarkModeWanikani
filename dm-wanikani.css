@@ -7,7 +7,7 @@
   Secondary: #34495e
   DM Pink: #cc0088
   DM Blue: #0088cc
-  DM Purple: #9770DE
+  DM Purple: #622FBE
   */
 
 body {
@@ -48,6 +48,11 @@ body {
   border-color: #fff;
 }
 
+.character-header--vocabulary {
+  background-color: #622fbe;
+  background-image: none;
+}
+
 @media screen and (min-width: 1024px) {
   .sitemap__section-header:hover,
   .sitemap__section-header:focus {
@@ -60,7 +65,7 @@ body {
     border-color: #cc0088;
   }
   .sitemap__section-header--vocabulary:hover {
-    border-color: #9770de;
+    border-color: #622fbe;
   }
   .sitemap__section-header--radicals:hover,
   .sitemap__section-header--radicals:focus,
@@ -75,7 +80,7 @@ body {
   .sitemap__section-header--vocabulary:hover,
   .sitemap__section-header--vocabulary:focus,
   .sitemap__section--open .sitemap__section-header--vocabulary {
-    color: #9770de;
+    color: #622fbe;
   }
 }
 
