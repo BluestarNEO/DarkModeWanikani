@@ -1,4 +1,48 @@
 /* Dark Mode Wanikani */
 /* Author: Keith Wasielewski */
-/* Copyright 2025 binaryLunchbox *
+/* Copyright 2025 binaryLunchbox */
 
+/* Color Palette
+  Primary: #2c3e50
+  Secondary: #34495e
+  */
+
+body {
+  background-color: #2c3e50;
+  background-image: none;
+}
+
+.global-header {
+  background: #34495e;
+  border-bottom: 1px solid #42586e;
+}
+
+.logo__link h1:after {
+  background: top left / contain no-repeat
+    url(https://www.binarylunchbox.com/images/misc/wanikani_white.png);
+}
+
+.sitemap__section-header {
+  color: #fff;
+  text-shadow: none;
+}
+
+.todays-lessons {
+  background: #cc0088;
+  --color-count_bubble-text: #cc0088;
+}
+
+.reviews-dashboard {
+  background: #0088cc;
+  --color-count_bubble-text: #0088cc;
+}
+
+/* CUSTOM OPTIONS */
+
+/* Blurring Remaining Item Counter */
+.quiz-statistics__item-label {
+  filter: blur(4px);
+}
+.quiz-statistics__item-label:hover {
+  filter: blur(0);
+}
