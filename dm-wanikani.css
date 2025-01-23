@@ -40,6 +40,13 @@ body {
   --color-count_bubble-text: #0088cc;
 }
 
+.todays-lessons--complete,
+.reviews-dashboard.reviews-dashboard--complete,
+.lesson-and-reviews-loading--complete {
+  background: #808080;
+  --color-count_bubble-text: #808080;
+}
+
 .search-button {
   background-color: rgba(255, 255, 255, 0.8);
 }
