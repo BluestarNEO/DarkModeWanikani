@@ -9,6 +9,7 @@
   DM Pink: #cc0088
   DM Blue: #0088cc
   DM Purple: #622FBE
+  Original Text: #333;
   */
 
 body {
@@ -86,11 +87,16 @@ body {
 .lesson-picker__section-content,
 .recent-mistakes-dashboard__content,
 .extra-study,
-.subject-slide {
+.subject-slide,
+.level-progress-dashboard__content {
   background-color: #42586e;
 }
 
-.lesson-and-review-count__t @media screen and (min-width: 1024px) {
+.review-forecast__day-content {
+  color: #333;
+}
+
+@media screen and (min-width: 1024px) {
   .sitemap__section-header:hover,
   .sitemap__section-header:focus {
     border-color: rgba(255, 255, 255.5);
