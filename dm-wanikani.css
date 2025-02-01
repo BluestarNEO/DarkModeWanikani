@@ -68,7 +68,9 @@ body {
 .user-note,
 .user-note__link,
 .user-note__link:visited,
-.wk-button--default {
+.wk-button--default,
+.subject-section__text,
+.subject-character__meaning {
   text-shadow: none;
   color: #fff;
 }
@@ -88,7 +90,8 @@ body {
 .recent-mistakes-dashboard__content,
 .extra-study,
 .subject-slide,
-.level-progress-dashboard__content {
+.level-progress-dashboard__content,
+.additional-content__content {
   background-color: #42586e;
 }
 
